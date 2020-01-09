@@ -1,0 +1,31 @@
+n = 1000:
+A4Set          add             5 ms
+TreeSet        add             4 ms
+HashSet        add             2 ms
+A4Set          contain         5 ms
+TreeSet        contain         2 ms
+HashSet        contain         2 ms
+ 
+n = 10000:
+A4Set          add             19 ms
+TreeSet        add             9 ms
+HashSet        add             6 ms
+A4Set          contain         15 ms
+TreeSet        contain         10 ms
+HashSet        contain         3 ms
+ 
+n = 100000:
+A4Set          add             96 ms
+TreeSet        add             47 ms
+HashSet        add             29 ms
+A4Set          contain         67 ms
+TreeSet        contain         56 ms
+HashSet        contain         18 ms
+ 
+n = 1000000:
+A4Set          add             1610 ms
+TreeSet        add             837 ms
+HashSet        add             830 ms
+A4Set          contain         616 ms
+TreeSet        contain         649 ms
+HashSet        contain         90 ms
